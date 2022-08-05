@@ -11,7 +11,7 @@ Mauro Lemunao
 
 # Tareas
 
- - [x] Crear el boceto.
+ - [ ] Crear el boceto.
  - [ ] Crear un logo.
  - [ ] Tener una base de datos para que la comunidad suba sus dibujos.
 
