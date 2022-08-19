@@ -17,9 +17,9 @@ Mauro Lemunao
 
 ## Tareas definidas
 
- - [ ] Configurar el Readme.md (Santino Malone)
+ - [ ] Configurar el Readme.md (Todos)
  - [ ] Crear el logo (Mauro Lemunao)
- - [ ] Crear el boceto o interfaz de la aplicación (Todos)
+ - [ ] Crear el boceto o interfaz de la aplicación (Todos)  
 
 
 
