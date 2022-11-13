@@ -1,157 +1,74 @@
 * {
-    padding: 0%;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    padding: 0%;
-    margin: 0%;
-    background: url(../img/fondito.jpg)  no-repeat center top;
-    background-size: cover;
-    font-family: sans-serif;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: "lato", sans-serif;
+
 }
 .login-box h1{
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-    display: block;
-}
-
-.form-body img{
-
-}
-.text {
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: aqua;
-    margin-bottom: 25px ;
-}
-.form-body input{
-    display: block;
-    margin: auto;
-    height: 40px;
-    width: 75%;
-    padding-left: 10px;
-    color: blueviolet;
-    border: 1px solid;
-    border-radius: 2px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: black;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    font-size: 1rem;
-    outline: none;
-}
-.form-body input[type="password"] {
-    margin-top: 20px;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
 }
 ::placeholder {
-    font-size: 1rem;
-    color: aquamarine;
-}
-
-.form-body input:hover {
-    transition: .5s;
-    border: 1px solid;
-    color: crimson;
-}
-.form-body button {
-    display: block;
-    margin: auto;
-    margin-top: 25px;
-    margin-bottom: 30px;
-    height: 40px;
-    width: 78%;
-    background: transparent;
-    color: blanchedalmond;
-    border-radius: 2px;
-    cursor: pointer;
-    outline: none;
-    transition: all .5s ease;
-}
-.form-body button:hover {
-    color: blue;
-    border: ;
+  color: blue;
 }
 .login-box {
-    width: 320px;
-    height: 420px;
-    background: #000;
-    color: blueviolet;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    box-sizing: border-box;
-    padding: 70px 30px;
+  width: 320px;
+  height: 420px;
+  background: rgb(154, 77, 77);
+  color: blueviolet;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
 }
 .login-box input{
-    width: 10%;
-    margin-bottom: 20px;
+  width: 10%;
+  margin-bottom: 20px;
 }
 .login-box input[type="text"],
 .login-box input[type="Contraseña"] {
-    border: none;
-    border-bottom: 1px solid #000;
-    background: transparent;
-    outline: none;
-    height: 40px;
-    color: blueviolet;
-    font-size: 16px;
-}
-.form-register {
-    width: 400px;
-    background: #222;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: sans-serif;
-    color: aliceblue;
-    box-shadow: 7px 13px 37px #000;
-}
-.form-register h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: blueviolet;
+  font-size: 16px;
 }
 .controls {
-    width: 100%;
-    background: #24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family: 'sans-serif';
-    font-size: 18px;
-}
-.form-register p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-}
-.form-register a {
-    color: aliceblue;
-    text-decoration: none;
-}
-.form-register a:hover {
-    color: aliceblue;
-    text-decoration: underline;
-}
-.form-register .boton {
-    width: 100%;
-    background: #1f53c5;
-    border: none;
-    padding: 12px;
-    color: aliceblue;
-    margin: 16px 0;
-    font-size: 16px;
+  width: 100%;
+  background: #ea8775;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #536998;
+  font-family: 'sans-serif';
+  font-size: 18px;
 }
 
+.InputContainer{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      height: 100%;
+      width: 100%;
+      border: 1px solid #DADCE0;
+      border-radius: 7px;
+      font-size: 16px;
+      padding: 0 20px;
+      outline: none;
+      background: none;
+      z-index: 1;
+    
+}
