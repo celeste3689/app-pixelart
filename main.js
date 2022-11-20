@@ -1,5 +1,6 @@
+
 // Modules to control application life and create native browser window
-const {app, BrowserWindow} = require('electron')
+const {app, BrowserWindow, shell, ipcMain, dialog} = require('electron')
 const path = require('path')
 
 function createWindow () {
@@ -7,11 +8,41 @@ function createWindow () {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    frame: false,
+    transparent: true,
     webPreferences: {
       devTools:true,
       preload: path.join(__dirname, 'preload.js')
     }
   })
+
+  ipcMain.on('minimize', () => {
+    mainWindow.minimize();
+  });
+  
+  ipcMain.on('max-res', () => {
+    if (mainWindow.isMaximized()) mainWindow.unmaximize();
+    else mainWindow.maximize();
+  });
+  
+  ipcMain.on('close', () => {
+    mainWindow.close();
+  });
+  
+  mainWindow.on('maximize', () => {
+    mainWindow.webContents.send('maximized');
+  });
+  mainWindow.on('unmaximize', () => {
+    mainWindow.webContents.send('restored');
+  });
+  
+  mainWindow.on('focus', () => {
+    mainWindow.webContents.send('focused');
+  });
+  mainWindow.on('blur', () => {
+    mainWindow.webContents.send('inactived');
+  });
+  
 
   // and load the index.html of the app.
   
