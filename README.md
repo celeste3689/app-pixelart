@@ -27,10 +27,10 @@ El proyecto tiene imagenes, archivos de audio, componentes, rutas, no tiene data
 __Tareas__
 
 
-✔️ Crear el login de la app - Celeste Torres 
-✔️ Crear el registro - Celeste Torres 
-✔️ Crear el boceto de la App - Mauro Lemunao 
-✔️ Crear Interfaz - Daniel Trecaman 
+1. Crear el login de la app - Celeste Torres ✔️
+2.  Crear el registro - Celeste Torres ✔️ 
+3.  Crear el boceto de la App - Mauro Lemunao ✔️ 
+4.  Crear Interfaz - Daniel Trecaman ✔️
 - [x]  Tener un logo - ❔
 
 # Estructura del projecto 
