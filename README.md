@@ -34,7 +34,7 @@ __Tareas__
 - [x]  Tener un logo - ❔
 
 # Estructura del projecto 
-__Un mejor ordenamiento para los archivos:
+Un mejor ordenamiento para los archivos:
 
 # Trabajo	
 V.S.C	Codigo
