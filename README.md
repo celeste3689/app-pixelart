@@ -25,6 +25,8 @@ El proyecto tiene imagenes, archivos de audio, componentes, rutas, no tiene data
 **Tareas realizadas**
 
 __Tareas__
+
+
 ✔️ Crear el login de la app - Celeste Torres 
 ✔️ Crear el registro - Celeste Torres 
 ✔️ Crear el boceto de la App - Mauro Lemunao 
