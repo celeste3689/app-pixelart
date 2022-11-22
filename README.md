@@ -1,4 +1,4 @@
-               # APP PIXELART    
+ # APP PIXELART    
 
 Es una aplicacion en donde se puede dibujar o modificar dibujos con ciertos formatos, colores, y donde podras registrarte y iniciar
 sesion cuando quieras, es una app simple y concisa.
