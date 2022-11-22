@@ -1,14 +1,16 @@
-                APP PIXELART    
+               # APP PIXELART    
 
 Es una aplicacion en donde se puede dibujar o modificar dibujos con ciertos formatos, colores, y donde podras registrarte y iniciar
 sesion cuando quieras, es una app simple y concisa.
 
-¿Quiénes somos?
+# ¿Quiénes somos?
+
+
 Este proyecto se encuentra integrado por el siguiente equipo de trabajo:
 
-Mauro Lemunao
-Celeste Torres
-Daniel Trecaman
+###### Mauro Lemunao
+###### Celeste Torres
+###### Daniel Trecaman
 
 El objetivo es poder hacer que la app funcione y no tener ningun incoveniente al usarla.
 
@@ -20,17 +22,17 @@ https://github.com/celeste3689/app-pixelart.git
 
 El proyecto tiene imagenes, archivos de audio, componentes, rutas, no tiene data-base.
 
-Tareas realizadas
+**Tareas realizadas**
 
-Tareas
-✔️ Crear el login de la app - Celeste Torres
-✔️ Crear el registro - Celeste Torres
-✔️ Crear el boceto de la App - Mauro Lemunao
-✔️ Crear Interfaz - Daniel Trecaman
-❔   Tener un logo 
+__Tareas__
+✔️ Crear el login de la app - Celeste Torres *
+✔️ Crear el registro - Celeste Torres *
+✔️ Crear el boceto de la App - Mauro Lemunao *
+✔️ Crear Interfaz - Daniel Trecaman *
+- [x]  Tener un logo - ❔
 
-Estructura del projecto
-Un mejor ordenamiento para los archivos:
+# Estructura del projecto 
+__Un mejor ordenamiento para los archivos:
 
-TRABAJO	
+# Trabajo	
 V.S.C	Codigo
