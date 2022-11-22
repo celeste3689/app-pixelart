@@ -1,24 +1,50 @@
-.Topbar {
-    height: 30px;
+.top-bar.blur {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
-    background-image: linear-gradient(to right, red , yellow);
-}
-
-.Topbar #name {
-    color: #bababa;
+    align-items: center;
     width: 100%;
+    box-shadow: 0px 8px 28px -6px rgb(24 39 75 / 12%);
+  }
+  
+  .top-bar.blur.blur {
+    background-color: #ffffff17;
+  }
+  
+  .top-bar.blur .title {
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    flex: 1;
     -webkit-app-region: drag;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 1%;
-}
-
-.Topbar button {
-    float: right;
-    height: inherit;
-    border: none;
-    background-color: transparent;
-    width: 40px;   
-}
+  }
+  
+  .top-bar.blur button {
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 4px;
+    height: 32px;
+    padding: 4px;
+    width: 32px;
+    color: transparent
+  }
+  
+  .top-bar.blur button.minimize {
+    background-image: url(./minimize.png);
+  }
+  
+  .top-bar.blur button.maximized {
+    background-image: url(./maximize.png);
+  }
+  
+  .top-bar.blur button.restored {
+    background-image: url(./restore.png);
+  }
+  
+  .top-bar.blur button.close {
+    background-image: url(./close.png);
+  }
+  

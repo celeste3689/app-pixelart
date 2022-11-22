@@ -25,7 +25,7 @@ const TopBar = () => {
   });
 
   return (
-    <div className={['title-bar', isBlur ? 'blur' : ''].join(' ')}>
+    <div className={['top-bar', isBlur ? 'blur' : ''].join(' ')}>
       <span className="title">Titulo</span>
       <div>
         <button
