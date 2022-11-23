@@ -12,7 +12,9 @@ function DrawView(){
     };
     return(
         <div className="Draw-container">
-            <div className='Color-panel'>
+            <div style={{ 
+                    margin: 15
+                 }} className='Color-panel'>
                 <ColorPiker colorSelected={colorSelected} handleChangeComplete={handleChangeComplete} />
             </div>
             <div className='DrawPanel'>
