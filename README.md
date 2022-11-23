@@ -27,10 +27,16 @@ El proyecto tiene imagenes, archivos de audio, componentes, rutas, no tiene data
 __Tareas__
 
 
-1. Crear el login de la app - Celeste Torres ✔️
-2.  Crear el registro - Celeste Torres ✔️ 
-3.  Crear el boceto de la App - Mauro Lemunao ✔️ 
-4.  Crear Interfaz - Daniel Trecaman ✔️
+1. HTML y CSS del login - Celeste Torres ✔️
+2. Funcionalidad del Login - Celeste Torres ✔️
+3. HTML y CSS del Topbar - Celeste Torres ✔️
+4. Funcionalidad del Topbar (botones, maximizar, restaurar, minimizar, etc) - Celeste Torres ✔️
+5. HTML y CSS del menu principal - Celeste Torres ✔️
+6.  Crear el registro - Celeste Torres ✔️ 
+7.  Crear el boceto de la App - Mauro Lemunao ✔️ 
+8.  Crear Interfaz - Daniel Trecaman ✔️
+9.  Crear la vista pixelart - Daniel Trecaman ✔️
+10.  Crear menu del pixelart - Mauro Lemunao  ✔️
 - [x]  Tener un logo - ❔
 
 # Estructura del projecto 

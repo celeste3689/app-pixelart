@@ -6,7 +6,12 @@
    font-family: 'Fontdiner Swanky', cursive;
    user-select: none;
 }
-
+.mensaje{
+   display: none;
+}
+.mensaje.error{
+   display: block;
+}
 
 .login {
    height: calc(100% - 30px);

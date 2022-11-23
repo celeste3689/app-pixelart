@@ -26,7 +26,7 @@ const TopBar = () => {
 
   return (
     <div className={['top-bar', isBlur ? 'blur' : ''].join(' ')}>
-      <span className="title">Titulo</span>
+      <span className="title">App PixelArt</span>
       <button
           onClick={(e) => ipcRenderer.send('minimize')}
           className="minimize"
