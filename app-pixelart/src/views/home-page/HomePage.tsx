@@ -10,7 +10,7 @@ function HomePage() {
   return (
     <div className='home'>
       <h1 id='title'>App-Pixelart</h1>
-    <button className='boton'>Iniciar</button>
+    <button className='boton' onClick={(e) => navigate('/draw-panel')}>Iniciar</button>
 
     <button className='boton'>Opciones</button>
 
