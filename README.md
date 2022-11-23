@@ -32,11 +32,12 @@ __Tareas__
 3. HTML y CSS del Topbar - Celeste Torres ✔️
 4. Funcionalidad del Topbar (botones, maximizar, restaurar, minimizar, etc) - Celeste Torres ✔️
 5. HTML y CSS del menu principal - Celeste Torres ✔️
-6.  Crear el registro - Celeste Torres ✔️ 
-7.  Crear el boceto de la App - Mauro Lemunao ✔️ 
-8.  Crear Interfaz - Daniel Trecaman ✔️
-9.  Crear la vista pixelart - Daniel Trecaman ✔️
-10.  Crear menu del pixelart - Mauro Lemunao  ✔️
+6. HTML y CSS del registro - Celeste Torres ✔️ 
+7. Funcionalidad de rutas - Celeste Torres ✔️
+8.  Crear el boceto de la App - Mauro Lemunao ✔️ 
+9.  Crear Interfaz - Daniel Trecaman ✔️
+10.  Crear la vista pixelart - Daniel Trecaman ✔️
+11.  Crear menu del pixelart - Mauro Lemunao  ✔️
 - [x]  Tener un logo - ❔
 
 # Estructura del projecto 
