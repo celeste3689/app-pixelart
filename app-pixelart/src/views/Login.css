@@ -11,13 +11,14 @@
 }
 .mensaje.error{
    display: block;
+   margin-top: 1%;
 }
 
 .login {
    height: calc(100% - 30px);
    display: flex;
    justify-content: center;
-   flex-direction: row;
+   flex-direction: column;
    align-content: center;
    align-items: center;
    margin: auto;
@@ -34,6 +35,14 @@
    box-shadow: -3px -3px 80px 12px rgba(232,159,230,1);
    -webkit-box-shadow: -3px -3px 80px 12px rgba(232,159,230,1);
    -moz-box-shadow: -3px -3px 80px 12px rgba(232,159,230,1);
+}
+#login-function {
+   background-color: white ;
+   padding: 1%;
+   margin-top: 7%;
+   border: 1px solid gray;
+   border-radius: 2px;
+
 }
 
 #title{

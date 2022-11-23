@@ -31,13 +31,13 @@ function Login() {
           <input type="text" onChange={e => setUsuario(e.target.value)} placeholder='Enter usuario' id='Usuario' className='form-component'/>
           <label htmlFor="Contraseña" className='form-component'>Contraseña</label>
           <input type="password" onChange={e => setContraseña(e.target.value)} placeholder='Enter contraseña' className='form-component'/>
-          <button onClick={e => Iniciar(usuario, contraseña)} className='form-component'>Iniciar sesion</button>
-          <button onClick={e => navigate('/register')} id='form-last' type='submit' className='form-component' >No tenes cuenta?</button>
+          <p id='login-function' onClick={e => Iniciar(usuario, contraseña)}>Iniciar sesion</p>         
+         <button onClick={e => navigate('/register')} id='form-last' type='submit' className='form-component' >No tenes cuenta?</button>
         </form>
-        <div className={['mensaje', isRegisted ? '' : 'error'].join(' ')}>
-          <h1>Usuario o contraseña incorrecto</h1>
-        </div>
       </div>
+      <div className={['mensaje', isRegisted ? '' : 'error'].join(' ')}>
+          <h3>Usuario o contraseña incorrecto</h3>
+        </div>
     </div>
   );
 }
