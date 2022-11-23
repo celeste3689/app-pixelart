@@ -27,8 +27,7 @@ const TopBar = () => {
   return (
     <div className={['top-bar', isBlur ? 'blur' : ''].join(' ')}>
       <span className="title">Titulo</span>
-      <div>
-        <button
+      <button
           onClick={(e) => ipcRenderer.send('minimize')}
           className="minimize"
         />
@@ -38,7 +37,6 @@ const TopBar = () => {
           className={isMaximized ? 'maximized' : 'restored'}
         />
         <button onClick={(e) => ipcRenderer.send('close')} className="close" />
-      </div>
     </div>
   );
 };
